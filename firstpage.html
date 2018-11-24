@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>photo gallery</title>    
+<link rel="stylesheet" href="./firstpage.css">
+</head>
+<body>
+<div class='head'>
+        <header> THUMBNAIL GALLERY</header>
+</div>
+<div id="mydiv"   onclick="load(event)">
+       
+<div class ="centre">
+<div class="res">
+    <div class="gall">
+    
+    <img src="images/image1.jpg">
+    <div class="des">Shades of Pink</div>
+    
+    </div>
+    
+</div>
+    
+    <div class="res">
+    <div class="gall">
+    
+    <img src="images/image2.jfif">
+    <div class="des">Autumn</div>
+    
+    </div>
+    
+</div>
+    
+    <div class="res">
+    <div class="gall">
+    
+    <img src="images/image3.jpg">
+    <div class="des">Lamborghini</div>
+    
+    </div>
+    
+</div>
+    
+    <div class="res">
+    <div class="gall">
+    
+    <img src="images/image4.jfif">
+    <div class="des">Love Birds</div>
+    
+    </div>
+    
+</div>
+    
+<div class="res">
+    <div class="gall">
+    
+    <img src="images/image5.jpeg">
+    <div class="des">Harley Davidson</div>
+    
+    </div>
+    
+</div>
+
+    <div class="res">
+    <div class="gall">
+    
+    <img src="images/image6.jfif">
+    <div class="des">Colour ur life</div>
+    
+    </div>
+    
+</div>
+    
+    <div class="res">
+    <div class="gall">
+    
+    <img src="images/image7.jpg">
+    <div class="des">Taj Mahal</div>
+    
+    </div>
+    
+</div>
+    
+    <div class="res">
+    <div class="gall">
+    
+    <img src="images/image8.jpg">
+    <div class="des">Champions</div>
+    
+    </div>
+    
+</div>
+    
+
+</div>
+</div>
+    
+    
+        <footer class="head" style="position: relative;bottom:-190px;
+" >All copyrights reserved</footer>
+
+</body>
+
+<script>
+    function load(event)
+    {   var targetelement = event.target;
+        var x=targetelement.getAttribute('src');
+        x=x.substring(7,13);
+        x=x+'.html';
+        window.open(x);
+    }
+    
+</script>
+
+</html>
